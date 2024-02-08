@@ -10,7 +10,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                    <!-- {{ __("You're logged in!") }} -->
+                    <h1 class="text-white uppercase">actividades:</h1>
                     @foreach($actividades as $actividad)
                       <div class="w-1/3 border border-white rounded-lg p-4">
                         <p class="uppercase font-bold">Actividad:</p>
